@@ -68,5 +68,5 @@ RUCA dataset
 - Physical Therapists and ED Visits per 100K by State: allows comparison of PTs per 100K residents and ED visits per 100K residents with bubble size representing total state population
 - Medicare Physical Therapists by State: drill down capabilities to examine differences in the number of Medicare participating PTs by state, city, and ZIP code
 - Percent of Urban vs Rural by State: compares percentage of ZIP codes per RUCA tier by state spanning urban, large rural, small rural, and isolated rural to provide context for differences in rurality by state
-- Average of PT Service by RUCA Tier: compares the average number of PT billed services across RUCA tiers to examine differences in service utilization by ruarlity
+- PT Availability by Geographic Tier: compares Medicare-billing physical therapist availability per 100K population across RUCA geographic tiers nationwide. PT availability was highest in urban areas and decreased substantially across large rural, small rural, and isolated rural areas
 - PT Access vs ED Use: compares the number of PTs per 100K residents with ED visits per therapist by state, providing an additional view of PT availability and ED utilization
