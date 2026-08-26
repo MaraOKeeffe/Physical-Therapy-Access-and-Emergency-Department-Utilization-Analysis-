@@ -64,3 +64,8 @@ RUCA dataset
   
 ## Power BI Dashboard
 ![screenshot of dashboard](Medicare_Geography_Dashboard.png)
+Physical Therapists and ED Visits per 100K by State
+Medicare Physical Therapists by State
+Percent of Urban vs Rural by State
+Average of PT Service by RUCA Tier
+
