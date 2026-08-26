@@ -63,4 +63,4 @@ RUCA dataset
 - The Pearson correlation coefficient between PTs per 100K and ED visits for MSK pain per 100K was -0.216, indicating a weak negative linear association. Within the states represented in all datasets, greater physical therapist availability was associated with slightly lower ED visit rates for MSK pain
   
 ## Power BI Dashboard
-
+![screenshot of dashboard](Medicare_Geography_Dashboard.png)
