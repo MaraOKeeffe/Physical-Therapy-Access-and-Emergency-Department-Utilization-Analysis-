@@ -1,0 +1,1 @@
+I used large language models to support efficient writing of SQL queries, documentation, and troubleshooting. All queries, analytical decisions, results, and written content were reviewed and validated by me before inclusion in this project.
