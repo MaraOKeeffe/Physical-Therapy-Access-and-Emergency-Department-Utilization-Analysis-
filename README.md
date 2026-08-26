@@ -47,7 +47,20 @@ RUCA dataset
 - Standardized ZIP code formatting to support joins with CMS provider data
 
 ## Methodology
+- Examined whether states with greater PT availability demonstrated different patterns of ED utilization
+- Determined number of PTs per state, city, and ZIP code
+- Combined CMS and RUCA datasets to determine number of PTs per RUCA tier
+- Calculated number of practicing PTs per 100K population to account for differences across state populations
+- Reviewed number of practicing PTs across urban, large rural, small rural, and isolated rural areas
+- Calculated the percentage of ZIP codes within each RUCA geographic tier by state
+- Compared state-level visits to the ED for neck and back pain across states
+- Analyzed whether number of PTs per geographic region is associated with numbers of ED visits for MSK pain
 
 ## Key Findings
-
+- PT availability varied substantially by state even after accounting for differences in population size
+- PTs are more common in urban areas compared to rural areas
+- Analysis of PT locations by RUCA classification showed that urban ZIP codes generally contained more Medicare-participating physical therapists than large rural, small rural, or isolated rural ZIP codes
+- The Pearson correlation coefficient between PTs per 100K and ED visits for MSK pain per 100K was -0.216, indicating a weak negative linear association. Within the states represented in all datasets, greater physical therapist availability was associated with slightly lower ED visit rates for MSK pain
+  
 ## Power BI Dashboard
+
