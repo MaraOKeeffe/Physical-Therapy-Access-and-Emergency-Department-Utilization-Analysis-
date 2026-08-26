@@ -45,7 +45,8 @@ AHRQ dataset
 RUCA dataset
 - Removed RUCA score 99 entries representing ZIP codes with no resident population
 - Standardized ZIP code formatting to support joins with CMS provider data
-
+- Standardized RUCA ZIP codes, removed RUCA code 99 records, and joined ZIP-level RUCA classifications to the cleaned CMS provider dataset to support rurality analysis
+  
 ## Methodology
 - Examined whether states with greater PT availability demonstrated different patterns of ED utilization
 - Determined number of PTs per state, city, and ZIP code
@@ -63,9 +64,9 @@ RUCA dataset
 - The Pearson correlation coefficient between PTs per 100K and ED visits for MSK pain per 100K was -0.216, indicating a weak negative linear association. Within the states represented in all datasets, greater physical therapist availability was associated with slightly lower ED visit rates for MSK pain
   
 ## Power BI Dashboard
-![screenshot of dashboard](Medicare_Geography_Dashboard.png)
-Physical Therapists and ED Visits per 100K by State
-Medicare Physical Therapists by State
-Percent of Urban vs Rural by State
-Average of PT Service by RUCA Tier
-
+![screenshot of dashboard](PT_Access_by_Geography.png)
+- Physical Therapists and ED Visits per 100K by State: allows comparison of PTs per 100K residents and ED visits per 100K residents with bubble size representing total state population
+- Medicare Physical Therapists by State: drill down capabilities to examine differences in the number of Medicare participating PTs by state, city, and ZIP code
+- Percent of Urban vs Rural by State: compares percentage of ZIP codes per RUCA tier by state spanning urban, large rural, small rural, and isolated rural to provide context for differences in rurality by state
+- Average of PT Service by RUCA Tier: compares the average number of PT billed services across RUCA tiers to examine differences in service utilization by ruarlity
+- PT Access vs ED Use: compares the number of PTs per 100K residents with ED visits per therapist by state, providing an additional view of PT availability and ED utilization
