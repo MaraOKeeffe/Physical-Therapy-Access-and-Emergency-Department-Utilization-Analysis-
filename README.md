@@ -1,8 +1,10 @@
-# Physical-Therapy-Access-and-Emergency-Department-Utilization-Analysis-
+# Physical-Therapy-Access-and-Emergency-Department-Utilization-Analysis
 Analysis of how PT access might change ED utilization for MSK issues
 
 ## Project Overview
-I designed this project to examine whether physical therapy availability is associated with emergency department utilization for musculoskeletal conditions. Using Medicare provider data from the Centers for Medicare & Medicaid Services (CMS), emergency department utilization data from the Agency for Healthcare Research and Quality (AHRQ), U.S. Census population data, and USDA Rural–Urban Commuting Area (RUCA) classifications, I analyzed geographic access to physical therapy and its relationship to emergency department visits for back and neck pain. 
+This project examines whether physical therapy availability is associated with emergency department utilization for musculoskeletal conditions. Using Medicare provider data from the Centers for Medicare & Medicaid Services (CMS), emergency department utilization data from the Agency for Healthcare Research and Quality (AHRQ), U.S. Census population data, and USDA Rural–Urban Commuting Area (RUCA) classifications, I analyzed geographic access to physical therapy and its relationship to emergency department visits for back and neck pain. 
+
+![screenshot of dashboard](PT_Access_by_Geography_Dashboard.png)
 ## Business Problem
 Many people seek healthcare for musculoskeletal (MSK) problems such as back and neck pain. For reasons including access to care, insurance, health literacy, and severity of symptoms, many people look for care for these issues at the emergency department (ED) rather than at an outpatient physical therapy (PT) clinic. Because ED visits tend to use more healthcare resources and be more expensive than PT visits, understanding whether geographic access to PT is associated with higher ED visits may help identify potential disparities in access and opportunities for easier access to care.
 ## Business Question
@@ -64,7 +66,6 @@ RUCA dataset
 - The Pearson correlation coefficient between PTs per 100K and ED visits for MSK pain per 100K was -0.216, indicating a weak negative linear association. Within the states represented in all datasets, greater physical therapist availability was associated with slightly lower ED visit rates for MSK pain
   
 ## Power BI Dashboard
-![screenshot of dashboard](PT_Access_by_Geography_Dashboard.png)
 - Physical Therapists and ED Visits per 100K by State: allows comparison of PTs per 100K residents and ED visits per 100K residents with bubble size representing total state population
 - Medicare Physical Therapists by State: drill down capabilities to examine differences in the number of Medicare participating PTs by state, city, and ZIP code
 - Percent of Urban vs Rural by State: compares percentage of ZIP codes per RUCA tier by state spanning urban, large rural, small rural, and isolated rural to provide context for differences in rurality by state
