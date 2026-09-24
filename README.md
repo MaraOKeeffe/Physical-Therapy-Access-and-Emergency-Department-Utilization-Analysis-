@@ -6,7 +6,7 @@ This project examines whether physical therapy availability is associated with e
 
 ![screenshot of dashboard](PT_Access_by_Geography_Dashboard.png)
 ## Business Problem
-Many people seek healthcare for musculoskeletal (MSK) problems such as back and neck pain. For reasons including access to care, insurance, health literacy, and severity of symptoms, many people look for care for these issues at the emergency department (ED) rather than at an outpatient physical therapy (PT) clinic. Because ED visits tend to use more healthcare resources and be more expensive than PT visits, understanding whether geographic access to PT is associated with higher ED visits may help identify potential disparities in access and opportunities for easier access to care.
+Many people seek healthcare for musculoskeletal (MSK) problems such as back and neck pain. For reasons including access to care, insurance, health literacy, and severity of symptoms, many people look for care for these issues at the emergency department (ED) rather than at an outpatient physical therapy (PT) clinic. Because ED visits tend to use more healthcare resources and tend to be more expensive than PT visits, understanding whether geographic access to PT is associated with higher ED visits may help identify potential disparities in access and opportunities for easier access to care.
 ## Business Question
 - How many physical therapists who participate in Medicare are in each state, city, and ZIP code?
 - How do different levels of rurality affect availability of PT providers?
